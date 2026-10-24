@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028F2C37977BFBDA63FCDAC6 /* BLELightEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08248C36A188AC8E5F863BFE /* BLELightEngine.swift */; };
+		11D74DF55788ECF712D9E84A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B1A75F6BD5ACCDA852240A /* SettingsView.swift */; };
+		22695791F450554DE6C92704 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D84B01714F3514841191B /* Models.swift */; };
+		2641AEEBA7F8951EE56A95FE /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5717BF9CD96C015FFC4073C8 /* ProtocolTests.swift */; };
+		34EBF5259C9D94DA0190A015 /* LightPilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E93836E94E525FCE8A480 /* LightPilotApp.swift */; };
+		3BD352FF3227B1933CE8D8DD /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D20C482BDB6B009E70814D /* SharedStore.swift */; };
+		40BCE2048101A7DC6C03B777 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B1A75F6BD5ACCDA852240A /* SettingsView.swift */; };
+		442763C15AE5E183C73ECCED /* XYPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2362881F6AAD205DFB2DCAC /* XYPadView.swift */; };
+		496FBC3C4B08BDD403AD111F /* IStripProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F677CA844B4E8312D6B9E1 /* IStripProtocol.swift */; };
+		4C319988A771A1A1461D4BA8 /* ProtocolSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C47E1ACB5070050463029 /* ProtocolSelfTest.swift */; };
+		5192F62EB8655AB77DA3523A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D84B01714F3514841191B /* Models.swift */; };
+		62E45C8FCC6AF1E1FAA0626D /* LightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB24382AFFE6102179E7C7B /* LightViewModel.swift */; };
+		677B2C811C5FE63A97D64B7E /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D20C482BDB6B009E70814D /* SharedStore.swift */; };
+		7F3EE59260114731AEBFE5A4 /* LightPilotAU.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F76FEB6902BF543DDE5D02A0 /* LightPilotAU.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		88C2F96EC26ACD060E6ED6CC /* LPRealtime.c in Sources */ = {isa = PBXBuildFile; fileRef = 55AA3402A347C5536527C3FC /* LPRealtime.c */; };
+		8AD31A7E9248AA0B1284A664 /* IStripProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F677CA844B4E8312D6B9E1 /* IStripProtocol.swift */; };
+		8B05B5354F1A1B664CDABE58 /* BLELightEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08248C36A188AC8E5F863BFE /* BLELightEngine.swift */; };
+		8B37450F72FF18E4B5DB4A7F /* AppHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C87262B5941B7A2F57EBC97 /* AppHost.swift */; };
+		8BBED18322D8B71735ACD70B /* LightPilotAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DA271AF0BF2817EE2F6D66 /* LightPilotAudioUnit.swift */; };
+		946C2EAA1F4744BF0C8DC37D /* PerformanceCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3CFDAE8C5E6CC595D543C7 /* PerformanceCore.swift */; };
+		A2DCA58FFF7C9C504C933F70 /* XYPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2362881F6AAD205DFB2DCAC /* XYPadView.swift */; };
+		B1DB3D0014FD66980E804D4C /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E4CF8360BDC8A7CC49AAA9 /* AudioUnitViewController.swift */; };
+		BCA03E47A4C06049AE37A544 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B9CDB3F684D39F99DA503 /* ControlPanelView.swift */; };
+		C9C18C2181F82E4DAD044AA7 /* AES128ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D733EB6471C7D724004CEB4 /* AES128ECB.swift */; };
+		D109340716D8D82BD4D1CFA7 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1FAB705EDA09A6CE9860C5 /* DiagnosticsView.swift */; };
+		D56ABF724D356C50C8212EE0 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8B9CDB3F684D39F99DA503 /* ControlPanelView.swift */; };
+		D8752CF76F81E3790344F113 /* AES128ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D733EB6471C7D724004CEB4 /* AES128ECB.swift */; };
+		DB83A697325B453BEC3DD66E /* BridgeLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831C3F2770308FAC7D8A529 /* BridgeLink.swift */; };
+		F1C47BCA169097E12BB107EC /* PerformanceCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3CFDAE8C5E6CC595D543C7 /* PerformanceCore.swift */; };
+		F2B254F03A84B76B2DA54FFB /* ProtocolSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292C47E1ACB5070050463029 /* ProtocolSelfTest.swift */; };
+		F4B52C1250BA608CF280DF15 /* LPRealtime.c in Sources */ = {isa = PBXBuildFile; fileRef = 55AA3402A347C5536527C3FC /* LPRealtime.c */; };
+		FA36889168781E7C87DE6899 /* BridgeLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5831C3F2770308FAC7D8A529 /* BridgeLink.swift */; };
+		FE8C9D16940BE43061A5122A /* LightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEBC26B98F27C0AD8397C9C /* LightsView.swift */; };
+		FFEC3CD137FB31DC7EC15CF7 /* LightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB24382AFFE6102179E7C7B /* LightViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95E61581AA73C8D52C44D001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 704B036657360B7242B1C027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3266BA2A5831DA5C5E27D572;
+			remoteInfo = LightPilot;
+		};
+		A770280EA4A83A96BE75B782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 704B036657360B7242B1C027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5434C08895D7F0877C1E12F5;
+			remoteInfo = LightPilotAU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1DE36AED8C923856AD63CD0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7F3EE59260114731AEBFE5A4 /* LightPilotAU.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03567E458189B8907E473990 /* LPRealtime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPRealtime.h; sourceTree = "<group>"; };
+		08248C36A188AC8E5F863BFE /* BLELightEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLELightEngine.swift; sourceTree = "<group>"; };
+		10E4CF8360BDC8A7CC49AAA9 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		292C47E1ACB5070050463029 /* ProtocolSelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSelfTest.swift; sourceTree = "<group>"; };
+		31F677CA844B4E8312D6B9E1 /* IStripProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IStripProtocol.swift; sourceTree = "<group>"; };
+		3A8AE5F904785A5471A264D8 /* LightPilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightPilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB24382AFFE6102179E7C7B /* LightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightViewModel.swift; sourceTree = "<group>"; };
+		496975079F17C72001BE3E31 /* LightPilot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LightPilot.entitlements; sourceTree = "<group>"; };
+		55AA3402A347C5536527C3FC /* LPRealtime.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LPRealtime.c; sourceTree = "<group>"; };
+		5717BF9CD96C015FFC4073C8 /* ProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
+		578959F84143F3D778857231 /* LightPilotAU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LightPilotAU.entitlements; sourceTree = "<group>"; };
+		5831C3F2770308FAC7D8A529 /* BridgeLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeLink.swift; sourceTree = "<group>"; };
+		63DA271AF0BF2817EE2F6D66 /* LightPilotAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightPilotAudioUnit.swift; sourceTree = "<group>"; };
+		6C1FAB705EDA09A6CE9860C5 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		6C87262B5941B7A2F57EBC97 /* AppHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHost.swift; sourceTree = "<group>"; };
+		73629CEC8CB4CEE69E14BF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7C3CFDAE8C5E6CC595D543C7 /* PerformanceCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceCore.swift; sourceTree = "<group>"; };
+		7D733EB6471C7D724004CEB4 /* AES128ECB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES128ECB.swift; sourceTree = "<group>"; };
+		7E1E93836E94E525FCE8A480 /* LightPilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightPilotApp.swift; sourceTree = "<group>"; };
+		95B1A75F6BD5ACCDA852240A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A5BFCC26FEDFC145C360F3D6 /* LightPilot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightPilot-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA8B9CDB3F684D39F99DA503 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		ADEBC26B98F27C0AD8397C9C /* LightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightsView.swift; sourceTree = "<group>"; };
+		BB4D84B01714F3514841191B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D2362881F6AAD205DFB2DCAC /* XYPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYPadView.swift; sourceTree = "<group>"; };
+		D6D20C482BDB6B009E70814D /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		E328C24FE10DCD4A72FECAFB /* LightPilotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightPilotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76FEB6902BF543DDE5D02A0 /* LightPilotAU.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LightPilotAU.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8258968363344D6961C0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		027E63B311151965939021C8 /* AUExtension */ = {
+			isa = PBXGroup;
+			children = (
+				10E4CF8360BDC8A7CC49AAA9 /* AudioUnitViewController.swift */,
+				73629CEC8CB4CEE69E14BF6B /* Info.plist */,
+				578959F84143F3D778857231 /* LightPilotAU.entitlements */,
+				63DA271AF0BF2817EE2F6D66 /* LightPilotAudioUnit.swift */,
+			);
+			path = AUExtension;
+			sourceTree = "<group>";
+		};
+		57A4DC058F8C476DCE2BB710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8AE5F904785A5471A264D8 /* LightPilot.app */,
+				F76FEB6902BF543DDE5D02A0 /* LightPilotAU.appex */,
+				E328C24FE10DCD4A72FECAFB /* LightPilotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DCA414BB7B61708F3D10EF6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5717BF9CD96C015FFC4073C8 /* ProtocolTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		77EEF927070A2D5105B16A6C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8E16AA5DFF94E5E675035A71 /* Views */,
+				7D733EB6471C7D724004CEB4 /* AES128ECB.swift */,
+				08248C36A188AC8E5F863BFE /* BLELightEngine.swift */,
+				5831C3F2770308FAC7D8A529 /* BridgeLink.swift */,
+				31F677CA844B4E8312D6B9E1 /* IStripProtocol.swift */,
+				A5BFCC26FEDFC145C360F3D6 /* LightPilot-Bridging-Header.h */,
+				3AB24382AFFE6102179E7C7B /* LightViewModel.swift */,
+				55AA3402A347C5536527C3FC /* LPRealtime.c */,
+				03567E458189B8907E473990 /* LPRealtime.h */,
+				BB4D84B01714F3514841191B /* Models.swift */,
+				7C3CFDAE8C5E6CC595D543C7 /* PerformanceCore.swift */,
+				292C47E1ACB5070050463029 /* ProtocolSelfTest.swift */,
+				D6D20C482BDB6B009E70814D /* SharedStore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8E16AA5DFF94E5E675035A71 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA8B9CDB3F684D39F99DA503 /* ControlPanelView.swift */,
+				95B1A75F6BD5ACCDA852240A /* SettingsView.swift */,
+				D2362881F6AAD205DFB2DCAC /* XYPadView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9184A9AD309AA2DD9C8051FC = {
+			isa = PBXGroup;
+			children = (
+				A0E386B3026231B6B9B9EE2B /* App */,
+				027E63B311151965939021C8 /* AUExtension */,
+				77EEF927070A2D5105B16A6C /* Shared */,
+				5DCA414BB7B61708F3D10EF6 /* Tests */,
+				57A4DC058F8C476DCE2BB710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E386B3026231B6B9B9EE2B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C87262B5941B7A2F57EBC97 /* AppHost.swift */,
+				6C1FAB705EDA09A6CE9860C5 /* DiagnosticsView.swift */,
+				FA8258968363344D6961C0FD /* Info.plist */,
+				496975079F17C72001BE3E31 /* LightPilot.entitlements */,
+				7E1E93836E94E525FCE8A480 /* LightPilotApp.swift */,
+				ADEBC26B98F27C0AD8397C9C /* LightsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3266BA2A5831DA5C5E27D572 /* LightPilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37244752D44185226CE77BD7 /* Build configuration list for PBXNativeTarget "LightPilot" */;
+			buildPhases = (
+				38C7F6599EBB0520C57E180F /* Sources */,
+				E1DE36AED8C923856AD63CD0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A482FC7E281F376485FAA5E /* PBXTargetDependency */,
+			);
+			name = LightPilot;
+			packageProductDependencies = (
+			);
+			productName = LightPilot;
+			productReference = 3A8AE5F904785A5471A264D8 /* LightPilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5434C08895D7F0877C1E12F5 /* LightPilotAU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1B510C25792869D3E27D9B /* Build configuration list for PBXNativeTarget "LightPilotAU" */;
+			buildPhases = (
+				B2874E3CE835ED4918938746 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightPilotAU;
+			packageProductDependencies = (
+			);
+			productName = LightPilotAU;
+			productReference = F76FEB6902BF543DDE5D02A0 /* LightPilotAU.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5DF8D096C15C1AB532A06E35 /* LightPilotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1157D297B0482F92F6798B7D /* Build configuration list for PBXNativeTarget "LightPilotTests" */;
+			buildPhases = (
+				39D7849DC940D522F927C056 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A69C6F181C8DC943AE1021 /* PBXTargetDependency */,
+			);
+			name = LightPilotTests;
+			packageProductDependencies = (
+			);
+			productName = LightPilotTests;
+			productReference = E328C24FE10DCD4A72FECAFB /* LightPilotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		704B036657360B7242B1C027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3266BA2A5831DA5C5E27D572 = {
+						ProvisioningStyle = Automatic;
+					};
+					5434C08895D7F0877C1E12F5 = {
+						ProvisioningStyle = Automatic;
+					};
+					5DF8D096C15C1AB532A06E35 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8F79FBE90B85587A94C43588 /* Build configuration list for PBXProject "LightPilot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9184A9AD309AA2DD9C8051FC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 57A4DC058F8C476DCE2BB710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3266BA2A5831DA5C5E27D572 /* LightPilot */,
+				5434C08895D7F0877C1E12F5 /* LightPilotAU */,
+				5DF8D096C15C1AB532A06E35 /* LightPilotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38C7F6599EBB0520C57E180F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C18C2181F82E4DAD044AA7 /* AES128ECB.swift in Sources */,
+				8B37450F72FF18E4B5DB4A7F /* AppHost.swift in Sources */,
+				8B05B5354F1A1B664CDABE58 /* BLELightEngine.swift in Sources */,
+				FA36889168781E7C87DE6899 /* BridgeLink.swift in Sources */,
+				D56ABF724D356C50C8212EE0 /* ControlPanelView.swift in Sources */,
+				D109340716D8D82BD4D1CFA7 /* DiagnosticsView.swift in Sources */,
+				496FBC3C4B08BDD403AD111F /* IStripProtocol.swift in Sources */,
+				88C2F96EC26ACD060E6ED6CC /* LPRealtime.c in Sources */,
+				34EBF5259C9D94DA0190A015 /* LightPilotApp.swift in Sources */,
+				62E45C8FCC6AF1E1FAA0626D /* LightViewModel.swift in Sources */,
+				FE8C9D16940BE43061A5122A /* LightsView.swift in Sources */,
+				22695791F450554DE6C92704 /* Models.swift in Sources */,
+				F1C47BCA169097E12BB107EC /* PerformanceCore.swift in Sources */,
+				F2B254F03A84B76B2DA54FFB /* ProtocolSelfTest.swift in Sources */,
+				40BCE2048101A7DC6C03B777 /* SettingsView.swift in Sources */,
+				677B2C811C5FE63A97D64B7E /* SharedStore.swift in Sources */,
+				A2DCA58FFF7C9C504C933F70 /* XYPadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D7849DC940D522F927C056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2641AEEBA7F8951EE56A95FE /* ProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2874E3CE835ED4918938746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8752CF76F81E3790344F113 /* AES128ECB.swift in Sources */,
+				B1DB3D0014FD66980E804D4C /* AudioUnitViewController.swift in Sources */,
+				028F2C37977BFBDA63FCDAC6 /* BLELightEngine.swift in Sources */,
+				DB83A697325B453BEC3DD66E /* BridgeLink.swift in Sources */,
+				BCA03E47A4C06049AE37A544 /* ControlPanelView.swift in Sources */,
+				8AD31A7E9248AA0B1284A664 /* IStripProtocol.swift in Sources */,
+				F4B52C1250BA608CF280DF15 /* LPRealtime.c in Sources */,
+				8BBED18322D8B71735ACD70B /* LightPilotAudioUnit.swift in Sources */,
+				FFEC3CD137FB31DC7EC15CF7 /* LightViewModel.swift in Sources */,
+				5192F62EB8655AB77DA3523A /* Models.swift in Sources */,
+				946C2EAA1F4744BF0C8DC37D /* PerformanceCore.swift in Sources */,
+				4C319988A771A1A1461D4BA8 /* ProtocolSelfTest.swift in Sources */,
+				11D74DF55788ECF712D9E84A /* SettingsView.swift in Sources */,
+				3BD352FF3227B1933CE8D8DD /* SharedStore.swift in Sources */,
+				442763C15AE5E183C73ECCED /* XYPadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A482FC7E281F376485FAA5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5434C08895D7F0877C1E12F5 /* LightPilotAU */;
+			targetProxy = A770280EA4A83A96BE75B782 /* PBXContainerItemProxy */;
+		};
+		30A69C6F181C8DC943AE1021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3266BA2A5831DA5C5E27D572 /* LightPilot */;
+			targetProxy = 95E61581AA73C8D52C44D001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		062F69E79540AD6F551B3FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33E92E0A0E9259D65E4A13E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/LightPilot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8K75675Y38;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbradsmusic.LightPilot;
+				PRODUCT_NAME = LightPilot;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/LightPilot-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64840F44466D731B13AC4CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/LightPilot.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8K75675Y38;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbradsmusic.LightPilot;
+				PRODUCT_NAME = LightPilot;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/LightPilot-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74BE306273FA27495A883B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YOUR_TEAM_ID;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0EFDC1805AE7797C12B6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = AUExtension/LightPilotAU.entitlements;
+				DEVELOPMENT_TEAM = 8K75675Y38;
+				INFOPLIST_FILE = AUExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbradsmusic.LightPilot.AU;
+				PRODUCT_NAME = LightPilotAU;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/LightPilot-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C669DF3B83645FAFC6B21A22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = AUExtension/LightPilotAU.entitlements;
+				DEVELOPMENT_TEAM = 8K75675Y38;
+				INFOPLIST_FILE = AUExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbradsmusic.LightPilot.AU;
+				PRODUCT_NAME = LightPilotAU;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/LightPilot-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8503381C4D4A31893D31454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8K75675Y38;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbradsmusic.LightPilotTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightPilot.app/LightPilot";
+			};
+			name = Debug;
+		};
+		DD9A3118AFBDC2A1083E733C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8K75675Y38;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrbradsmusic.LightPilotTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightPilot.app/LightPilot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1157D297B0482F92F6798B7D /* Build configuration list for PBXNativeTarget "LightPilotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8503381C4D4A31893D31454 /* Debug */,
+				DD9A3118AFBDC2A1083E733C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		37244752D44185226CE77BD7 /* Build configuration list for PBXNativeTarget "LightPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64840F44466D731B13AC4CAE /* Debug */,
+				33E92E0A0E9259D65E4A13E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6B1B510C25792869D3E27D9B /* Build configuration list for PBXNativeTarget "LightPilotAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C669DF3B83645FAFC6B21A22 /* Debug */,
+				BA0EFDC1805AE7797C12B6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F79FBE90B85587A94C43588 /* Build configuration list for PBXProject "LightPilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74BE306273FA27495A883B8B /* Debug */,
+				062F69E79540AD6F551B3FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 704B036657360B7242B1C027 /* Project object */;
+}
